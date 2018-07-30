@@ -1,0 +1,10 @@
+version: '3'
+services:
+  quote:
+    build: .
+    depends_on:
+      - "mongo"
+  mongo:
+    image: "mongo:latest"
+    logging:
+      driver: "none"

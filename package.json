@@ -1,0 +1,19 @@
+{
+  "name": "PrequelQuoteStats",
+  "version": "1.0.0",
+  "description": "A Reddit bot to track prequel quote usage!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "DaJuukes",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "mongoose": "^5.2.5",
+    "snoostream": "^1.0.1",
+    "snoowrap": "^1.15.2"
+  }
+}
